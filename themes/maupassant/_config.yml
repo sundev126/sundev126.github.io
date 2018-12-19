@@ -1,4 +1,4 @@
-disqus: ## Your disqus_shortname, e.g. username
+disqus: sunpy ## Your disqus_shortname, e.g. username
 uyan: ## Your uyan_id. e.g. 1234567
 livere: ## Your livere data-uid, e.g. MTAyMC8zMDAxOC78NTgz
 changyan: ## Your changyan appid, e.g. cyrALsXc8
@@ -32,7 +32,7 @@ baidu_search: false ## Use Baidu search, true/false.
 swiftype: ## Your swiftype_key, e.g. m7b11ZrsT8Me7gzApciT
 tinysou: ## Your tinysou_key, e.g. 4ac092ad8d749fdc6293
 self_search: false ## Use a jQuery-based local search engine, true/false.
-google_analytics: ## Your Google Analytics tracking id, e.g. UA-42425684-2
+google_analytics: UA-54888096 ## Your Google Analytics tracking id, e.g. UA-42425684-2
 baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 fancybox: true ## If you want to use fancybox please set the value to true.
 show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
@@ -80,7 +80,8 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - tag
   - recent_posts
   - recent_comments
-  - links
+## - links
+## - timeline
 
 links:
   - title: site-name1
@@ -92,7 +93,7 @@ links:
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
+    word: 2007-初试个人博客，先后在天涯博客和Blogger上落脚
   - num: 2
     word: 2014/11/29-XXX
   - num: 3

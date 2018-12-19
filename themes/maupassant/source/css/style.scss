@@ -745,9 +745,9 @@ pre {
   display: block;
   width: 4px;
   background: #eee;
-  top: -3%;
+  top: -30px;
   right: -30px;
-  bottom: -3%;
+  bottom: -30px;
 }
 #process .present,
 #process .born {
@@ -777,21 +777,21 @@ pre {
 }
 #process .present {
   position: absolute;
-  top: -3%;
+  top: -30px;
   right: 0;
   margin-top: -20px;
   line-height: 100%;
 }
 #process .born {
   position: absolute;
-  bottom: -3%;
+  bottom: -30px;
   right: 0;
   margin-bottom: -20px;
   line-height: 100%;
 }
 #process .dot_tp {
   position: absolute;
-  top: -3%;
+  top: -30px;
   right: -35px;
   background-color: transparent;
   height: 15px;
@@ -804,7 +804,7 @@ pre {
 }
 #process .dot_bt {
   position: absolute;
-  bottom: -3%;
+  bottom: -30px;
   right: -35px;
   background-color: transparent;
   height: 15px;
